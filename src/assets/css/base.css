@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.tabbar{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f6f6f6;
+	box-shadow: 0px -2px 2px rgba(100,100,100,0.5);
+}
+.tabbar>li{
+	list-style: none;
+	text-align: center;
+	flex: 1;
+	height: 50px;
+	font-size: 13px;
+	
+}
